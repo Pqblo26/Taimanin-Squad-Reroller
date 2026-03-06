@@ -35,18 +35,15 @@ Instead of relying on screen clicks based on Windows coordinates, this bot works
 4.  **Configure your instances:**
     Open a terminal, run `adb devices` to see your emulators' ports, and update the `INSTANCES` list in the code with your actual ports (e.g., `emulator-5560`).
 
+## ⚠️ Important Notes
+
+* **Internal Resolution:** The bot assumes the emulator's internal resolution output via ADB is **960x540**. 
+* **Manual Confirmation:** The bot **NEVER** touches the "Confirm recruit" button. You are the one who decides when to keep the account.
+* **To stop everything:** Press `Ctrl+C` in the terminal.
+
 ## 🎮 Usage
 
 Once everything is set up and the game is open on the tutorial recruitment screen, simply run the bot:
 
 ```bash
 python taimanin_reroll_bot.py
-
-The bot will check the ADB connection, start the threads, and show you the progress in the console.
-
-To stop everything: Press Ctrl+C in the terminal.
-
-⚠️ Important Notes
-Internal Resolution: The bot assumes the emulator's internal resolution output via ADB is 960x540.
-
-Manual Confirmation: The bot NEVER touches the "Confirm recruit" button. You are the one who decides when to keep the account.
