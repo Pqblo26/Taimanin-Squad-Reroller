@@ -46,4 +46,4 @@ Instead of relying on screen clicks based on Windows coordinates, this bot works
 Once everything is set up and the game is open on the tutorial recruitment screen, simply run the bot:
 
 ```bash
-python taimanin_reroll_bot.py
+python taimanin_reroll_botv2.py
